@@ -1,0 +1,65 @@
+body
+{
+	margin-top: 25px;
+}
+
+.player
+{
+	font-size: 1.75em;
+	padding: 5px;
+}
+
+.player div
+{
+	display: inline-block;
+}
+
+.player .playerName
+{
+	width: 70%;
+}
+
+.player .givePointsBtn,
+.player .playerScore
+{
+	text-align: right;
+	width: 28%;
+}
+
+.player .playerScore
+{
+	font-weight: bold;
+	color: #a3a3a3;
+}
+
+.playerList .player
+{
+	cursor: pointer;
+}
+
+.playerList .player.selected
+{
+	background-color: yellow;
+}
+
+.controller
+{
+	margin-top: 15px;
+	padding-top: 15px;
+	border-top: 4px dashed #a3a3a3;
+}
+
+.controller .player
+{
+	display: none;
+	font-weight: bold;
+}
+
+.instructions
+{
+	font-size: 1.75em;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #a3a3a3;
+}
